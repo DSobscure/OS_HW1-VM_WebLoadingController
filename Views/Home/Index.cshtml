@@ -1,0 +1,36 @@
+﻿@using System;
+
+@{
+    ViewData["Title"] = "VM Loading Controller";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <div>
+        <h1>VM Loading Controller</h1>
+        @using(Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            <div>
+                @Html.Label("ip", "IP address ")
+                @Html.TextBox("ip", "")
+            </div>
+            <div>
+                @Html.Label("loading", "CPU Loading ")
+                @Html.TextBox("loading", 0)
+            </div>
+            <div>
+                @Html.Label("duration", "Execution Time ")
+                @Html.TextBox("duration", 0)
+            </div>
+            <input type='submit' value='Generate'><br/>
+        }
+        
+        <div id='monitor'>
+            <p>VM list @DateTime.Now</p>
+            <table>
+                <tr> <th>ID</th> <th>Name</th> <th>IP Address</th> <th>State</th> <th>Cpu Loading(%)</th> </tr>
+                <tr> <td>1</td> <td>VM1</td> <td>192.168.122.9</td> <td>running</td> <td>0%</td> </tr>
+                <tr> <td>2</td> <td>VM2</td> <td>192.168.122.209</td> <td>running</td> <td>0%</td> </tr>
+            </table>
+        </dic>
+    </div>
+</div>

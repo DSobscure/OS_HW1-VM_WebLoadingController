@@ -1,0 +1,8 @@
+/home/phantasm/VM_LoadingController/bin/Debug/netcoreapp1.1/VM_LoadingController.deps.json
+/home/phantasm/VM_LoadingController/bin/Debug/netcoreapp1.1/VM_LoadingController.runtimeconfig.json
+/home/phantasm/VM_LoadingController/bin/Debug/netcoreapp1.1/VM_LoadingController.runtimeconfig.dev.json
+/home/phantasm/VM_LoadingController/bin/Debug/netcoreapp1.1/VM_LoadingController.dll
+/home/phantasm/VM_LoadingController/bin/Debug/netcoreapp1.1/VM_LoadingController.pdb
+/home/phantasm/VM_LoadingController/obj/Debug/netcoreapp1.1/VM_LoadingController.AssemblyInfo.cs
+/home/phantasm/VM_LoadingController/obj/Debug/netcoreapp1.1/VM_LoadingController.dll
+/home/phantasm/VM_LoadingController/obj/Debug/netcoreapp1.1/VM_LoadingController.pdb

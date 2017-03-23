@@ -1,0 +1,11 @@
+﻿@using System;
+@{
+    Layout= null;
+}
+
+<p>VM list @DateTime.Now</p>
+<table>
+    <tr> <th>ID</th> <th>Name</th> <th>IP Address</th> <th>State</th> <th>Cpu Loading(%)</th> </tr>
+    <tr> <td>1</td> <td>VM1</td> <td>192.168.122.9</td> <td>running</td> <td>@ViewData["VM1Loading"]%</td> </tr>
+    <tr> <td>2</td> <td>VM2</td> <td>192.168.122.209</td> <td>running</td> <td>@ViewData["VM2Loading"]%</td> </tr>
+</table>
